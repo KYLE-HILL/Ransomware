@@ -1,10 +1,10 @@
 Instructions: 
-Copy the Code to a Text Editor and Rename the extension to .xml
+1. Copy the Code below to a Text Editor and change the extension to .xml
 
-Open an Elevated Command Prompt and Enter:
+2. Open an Elevated Command Prompt and use the following command to import into File Server Resource Manager:
 filescrn filegroup import/file:<Path> [/filegroup:<FgName>] [/remote:<ComputerName>] - Optional for Remote Servers
 
-Example Command to import from Desktop Folder:
+Example Command:
 filescrn template import /file:C:\Users\KYLE\Desktop\ransomware.xml /template:"Ransomware Files"
 --------------------------------------------------------------------------------------------------------------------------------------
 
